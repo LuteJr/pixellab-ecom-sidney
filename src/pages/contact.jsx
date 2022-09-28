@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Layout } from '../layouts';
 
 const contactPage = () => {
   return (
@@ -7,7 +8,9 @@ const contactPage = () => {
         <title>Contact Page</title>
       </Head>
 
-      <main>hello from nextpm</main>
+      <Layout>
+        <main>hello from nextpm</main>
+      </Layout>
     </>
   );
 };

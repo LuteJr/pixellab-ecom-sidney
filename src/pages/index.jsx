@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Layout } from '../layouts';
 
 export default function Home() {
   return (
@@ -7,7 +8,9 @@ export default function Home() {
         <title>Homepage</title>
       </Head>
 
-      <main className="text-3l font-bold underline">homepage</main>
+      <Layout>
+        <main>las asa</main>
+      </Layout>
     </>
   );
 }
